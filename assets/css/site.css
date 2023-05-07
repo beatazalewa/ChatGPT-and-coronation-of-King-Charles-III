@@ -4,11 +4,13 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	color: #333;
+	background-color: #fff;
 }
 
 /* Header styles */
 header {
-	background-color: #333;
+	background-color: #002147;
 	color: #fff;
 	padding: 10px 20px;
 }
@@ -45,15 +47,20 @@ main {
 
 section {
 	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #002147;
 }
 
 section h2 {
 	font-size: 24px;
 	margin-top: 0;
+	color: #002147;
 }
 
 section p {
 	line-height: 1.5;
+	color: #333;
 }
 
 section ul {
@@ -63,9 +70,25 @@ section ul {
 
 /* Footer styles */
 footer {
-	background-color: #333;
+	background-color: #002147;
 	color: #fff;
 	padding: 10px 20px;
 	text-align: center;
 	font-size: 14px;
+}
+
+/* Custom styles */
+a.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #002147;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+a.button:hover {
+	background-color: #fff;
+	color: #002147;
 }
